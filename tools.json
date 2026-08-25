@@ -1,1 +1,318 @@
+{
+  "osint": {
+    "Domain Intelligence": [
+      {
+        "name": "Amass",
+        "description": "In-depth attack surface mapping and asset discovery.",
+        "github": "https://github.com/owasp-amass/amass",
+        "website": "https://owasp.org/www-project-amass/"
+      },
+      {
+        "name": "SpiderFoot",
+        "description": "Automated OSINT reconnaissance and intelligence gathering.",
+        "github": "https://github.com/smicallef/spiderfoot",
+        "website": "https://www.spiderfoot.net/"
+      },
+      {
+        "name": "theHarvester",
+        "description": "Collects emails, subdomains, hosts, usernames and other public information.",
+        "github": "https://github.com/laramies/theHarvester",
+        "website": null
+      },
+      {
+        "name": "Recon-ng",
+        "description": "Modular reconnaissance framework for information gathering.",
+        "github": "https://github.com/lanmaster53/recon-ng",
+        "website": null
+      }
+    ],
 
+    "IP Intelligence": [
+      {
+        "name": "Shodan",
+        "description": "Search engine for internet-connected devices and services.",
+        "github": null,
+        "website": "https://www.shodan.io/"
+      },
+      {
+        "name": "Censys",
+        "description": "Internet intelligence and host discovery platform.",
+        "github": null,
+        "website": "https://search.censys.io/"
+      },
+      {
+        "name": "GreyNoise",
+        "description": "Internet scanner intelligence and IP reputation platform.",
+        "github": null,
+        "website": "https://www.greynoise.io/"
+      },
+      {
+        "name": "AbuseIPDB",
+        "description": "IP address reputation and abuse reporting database.",
+        "github": null,
+        "website": "https://www.abuseipdb.com/"
+      }
+    ],
+
+    "ASN Lookup": [
+      {
+        "name": "BGPView",
+        "description": "ASN, IP, prefix and BGP information lookup.",
+        "github": null,
+        "website": "https://bgpview.io/"
+      },
+      {
+        "name": "Hurricane Electric BGP Toolkit",
+        "description": "BGP and ASN information lookup service.",
+        "github": null,
+        "website": "https://bgp.he.net/"
+      },
+      {
+        "name": "bgpq4",
+        "description": "Generates network prefix filters from BGP routing information.",
+        "github": "https://github.com/bgp/bgpq4",
+        "website": null
+      }
+    ],
+
+    "DNS Intelligence": [
+      {
+        "name": "dig",
+        "description": "DNS lookup and query utility.",
+        "github": null,
+        "website": null
+      },
+      {
+        "name": "nslookup",
+        "description": "Command-line DNS query utility.",
+        "github": null,
+        "website": null
+      },
+      {
+        "name": "DNSDumpster",
+        "description": "DNS reconnaissance and domain discovery service.",
+        "github": null,
+        "website": "https://dnsdumpster.com/"
+      },
+      {
+        "name": "dnsrecon",
+        "description": "DNS enumeration and reconnaissance tool.",
+        "github": "https://github.com/darkoperator/dnsrecon",
+        "website": null
+      }
+    ],
+
+    "WHOIS Lookup": [
+      {
+        "name": "whois",
+        "description": "Command-line WHOIS client for domain and network registration information.",
+        "github": null,
+        "website": null
+      },
+      {
+        "name": "RDAP",
+        "description": "Modern protocol for querying domain and IP registration data.",
+        "github": null,
+        "website": "https://www.icann.org/rdap"
+      },
+      {
+        "name": "ICANN Lookup",
+        "description": "Domain registration and WHOIS/RDAP lookup service.",
+        "github": null,
+        "website": "https://lookup.icann.org/"
+      }
+    ],
+
+    "Subdomain Discovery": [
+      {
+        "name": "Subfinder",
+        "description": "Fast passive subdomain discovery tool.",
+        "github": "https://github.com/projectdiscovery/subfinder",
+        "website": "https://projectdiscovery.io/"
+      },
+      {
+        "name": "Amass",
+        "description": "Attack surface mapping and subdomain enumeration.",
+        "github": "https://github.com/owasp-amass/amass",
+        "website": "https://owasp.org/www-project-amass/"
+      },
+      {
+        "name": "Assetfinder",
+        "description": "Find domains and subdomains related to a target.",
+        "github": "https://github.com/tomnomnom/assetfinder",
+        "website": null
+      },
+      {
+        "name": "Findomain",
+        "description": "Cross-platform subdomain enumeration tool.",
+        "github": "https://github.com/Findomain/Findomain",
+        "website": null
+      }
+    ],
+
+    "Email Intelligence": [
+      {
+        "name": "theHarvester",
+        "description": "Collects publicly available email addresses and related infrastructure.",
+        "github": "https://github.com/laramies/theHarvester",
+        "website": null
+      },
+      {
+        "name": "Hunter",
+        "description": "Email discovery and domain intelligence platform.",
+        "github": null,
+        "website": "https://hunter.io/"
+      },
+      {
+        "name": "Holehe",
+        "description": "Checks whether an email address is associated with online services.",
+        "github": "https://github.com/megadose/holehe",
+        "website": null
+      },
+      {
+        "name": "EmailRep",
+        "description": "Email reputation and intelligence service.",
+        "github": null,
+        "website": "https://emailrep.io/"
+      }
+    ],
+
+    "Username Search": [
+      {
+        "name": "Sherlock",
+        "description": "Hunt down social media accounts by username.",
+        "github": "https://github.com/sherlock-project/sherlock",
+        "website": null
+      },
+      {
+        "name": "Maigret",
+        "description": "Collects information about accounts associated with usernames.",
+        "github": "https://github.com/soxoj/maigret",
+        "website": null
+      },
+      {
+        "name": "WhatsMyName",
+        "description": "Username enumeration across online services.",
+        "github": "https://github.com/WebBreacher/WhatsMyName",
+        "website": null
+      }
+    ],
+
+    "Social Media Intelligence": [
+      {
+        "name": "SpiderFoot",
+        "description": "Automated OSINT collection across many public sources.",
+        "github": "https://github.com/smicallef/spiderfoot",
+        "website": "https://www.spiderfoot.net/"
+      },
+      {
+        "name": "Maltego",
+        "description": "Visual link analysis and OSINT investigation platform.",
+        "github": null,
+        "website": "https://www.maltego.com/"
+      },
+      {
+        "name": "Recon-ng",
+        "description": "Modular reconnaissance framework.",
+        "github": "https://github.com/lanmaster53/recon-ng",
+        "website": null
+      }
+    ],
+
+    "Company Intelligence": [
+      {
+        "name": "Maltego",
+        "description": "Visual investigation and relationship mapping platform.",
+        "github": null,
+        "website": "https://www.maltego.com/"
+      },
+      {
+        "name": "SpiderFoot",
+        "description": "Automated collection of company and infrastructure intelligence.",
+        "github": "https://github.com/smicallef/spiderfoot",
+        "website": "https://www.spiderfoot.net/"
+      },
+      {
+        "name": "theHarvester",
+        "description": "Collects public infrastructure, email and domain information.",
+        "github": "https://github.com/laramies/theHarvester",
+        "website": null
+      }
+    ],
+
+    "Breach Intelligence": [
+      {
+        "name": "Have I Been Pwned",
+        "description": "Checks whether email addresses appear in known data breaches.",
+        "github": null,
+        "website": "https://haveibeenpwned.com/"
+      },
+      {
+        "name": "DeHashed",
+        "description": "Search and investigation platform for exposed credentials and breach data.",
+        "github": null,
+        "website": "https://dehashed.com/"
+      },
+      {
+        "name": "Intelligence X",
+        "description": "Search and intelligence platform for publicly exposed information.",
+        "github": null,
+        "website": "https://intelx.io/"
+      },
+      {
+        "name": "LeakCheck",
+        "description": "Data breach and credential exposure search service.",
+        "github": null,
+        "website": "https://leakcheck.io/"
+      }
+    ],
+
+    "Image Intelligence": [
+      {
+        "name": "Google Lens",
+        "description": "Visual search and image intelligence service.",
+        "github": null,
+        "website": "https://lens.google.com/"
+      },
+      {
+        "name": "Yandex Images",
+        "description": "Reverse image search and visual discovery.",
+        "github": null,
+        "website": "https://yandex.com/images/"
+      },
+      {
+        "name": "TinEye",
+        "description": "Reverse image search engine.",
+        "github": null,
+        "website": "https://tineye.com/"
+      },
+      {
+        "name": "InVID",
+        "description": "Verification and analysis toolkit for online images and videos.",
+        "github": "https://github.com/AFP-Medialab/invid-verification-plugin",
+        "website": "https://www.invid-project.eu/"
+      }
+    ],
+
+    "Metadata Extraction": [
+      {
+        "name": "ExifTool",
+        "description": "Read, write and edit metadata from many file formats.",
+        "github": "https://github.com/exiftool/exiftool",
+        "website": "https://exiftool.org/"
+      },
+      {
+        "name": "MediaInfo",
+        "description": "Displays technical and metadata information about multimedia files.",
+        "github": "https://github.com/MediaArea/MediaInfo",
+        "website": "https://mediaarea.net/MediaInfo"
+      },
+      {
+        "name": "FOCA",
+        "description": "Metadata and document information gathering tool.",
+        "github": "https://github.com/ElevenPaths/FOCA",
+        "website": null
+      }
+    ]
+  }
+}
